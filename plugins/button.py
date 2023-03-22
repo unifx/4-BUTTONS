@@ -151,7 +151,7 @@ def fsub_button(client, message):
 		return buttons
 	#cond -> fsub 3
 	if FORCE_SUB_CHANNEL and FORCE_SUB_CHANNEL2 and FORCE_SUB_GROUP and not FORCE_SUB_GROUP2:
-		 buttons = [
+		buttons = [
 			[
 			  InlineKeyboardButton(text="𝗝𝗢𝗜𝗡 𝗦𝗘𝗞𝗔𝗥𝗔𝗡𝗚", url=client.invitelink),
 			  InlineKeyboardButton(text="𝗝𝗢𝗜𝗡 𝗦𝗘𝗞𝗔𝗥𝗔𝗡𝗚", url=client.invitelink2),  
